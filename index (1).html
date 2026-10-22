@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Undangan Pernikahan Rina & Dimas</title>
+  <meta property="og:title" content="Undangan Pernikahan Rina & Dimas">
+  <meta property="og:description" content="Kami mengundang Anda untuk hadir di hari bahagia kami.">
+
+  <!-- Bootstrap 5 + Icons + Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="locked">
+
+  <!-- ============ COVER ============ -->
+  <section id="cover" class="cover d-flex flex-column justify-content-center align-items-center text-center text-white">
+    <p class="small letter-space mb-2">THE WEDDING OF</p>
+    <h1 class="script display-2 mb-3">Rina <span class="amp">&</span> Dimas</h1>
+    <p class="mb-1">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+    <h4 id="guestName" class="serif fw-semibold mb-4">Tamu Undangan</h4>
+    <button id="btnOpen" class="btn btn-gold btn-lg px-4">
+      <i class="bi bi-envelope-heart me-2"></i>Buka Undangan
+    </button>
+    <p class="small mt-3 opacity-75">Sabtu, 12 Desember 2026</p>
+  </section>
+
+  <!-- ============ MAIN ============ -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="home" class="hero d-flex flex-column justify-content-center align-items-center text-center text-white">
+      <p class="letter-space small reveal">KAMI MENIKAH</p>
+      <h1 class="script display-1 reveal">Rina & Dimas</h1>
+      <p class="lead reveal">Sabtu, 12 Desember 2026</p>
+      <a href="#countdown" class="btn btn-outline-light rounded-pill mt-3 reveal">
+        <i class="bi bi-chevron-double-down"></i>
+      </a>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="py-5 bg-cream text-center">
+      <div class="container narrow">
+        <i class="bi bi-heart-fill text-gold fs-3 reveal"></i>
+        <p class="serif fst-italic fs-5 mt-3 reveal">
+          “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup
+          agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.”
+        </p>
+        <p class="small text-muted reveal">— QS. Ar-Rum: 21</p>
+      </div>
+    </section>
+
+    <!-- COUPLE -->
+    <section id="couple" class="py-5">
+      <div class="container text-center">
+        <h2 class="script section-title reveal">Mempelai</h2>
+        <p class="text-muted narrow mx-auto reveal">Assalamu’alaikum Warahmatullahi Wabarakatuh. Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>
+
+        <div class="row g-5 justify-content-center mt-2">
+          <div class="col-md-5 reveal">
+            <img class="photo" src="https://picsum.photos/seed/bride/400/500" alt="Mempelai wanita">
+            <h3 class="script mt-4 mb-0">Rina Anggraini</h3>
+            <p class="text-muted mb-1">Putri dari</p>
+            <p class="fw-medium">Bpk. Hendra Wijaya & Ibu Sari Wulandari</p>
+          </div>
+          <div class="col-md-5 reveal">
+            <img class="photo" src="https://picsum.photos/seed/groom/400/500" alt="Mempelai pria">
+            <h3 class="script mt-4 mb-0">Dimas Pratama</h3>
+            <p class="text-muted mb-1">Putra dari</p>
+            <p class="fw-medium">Bpk. Agus Santoso & Ibu Lestari Dewi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section id="countdown" class="py-5 text-white text-center count-bg">
+      <div class="container">
+        <h2 class="script section-title text-white reveal">Menuju Hari Bahagia</h2>
+        <div class="row g-3 justify-content-center mt-3" id="timer">
+          <div class="col-6 col-md-2"><div class="time-box"><span id="cdDays">0</span><small>Hari</small></div></div>
+          <div class="col-6 col-md-2"><div class="time-box"><span id="cdHours">0</span><small>Jam</small></div></div>
+          <div class="col-6 col-md-2"><div class="time-box"><span id="cdMins">0</span><small>Menit</small></div></div>
+          <div class="col-6 col-md-2"><div class="time-box"><span id="cdSecs">0</span><small>Detik</small></div></div>
+        </div>
+        <a id="btnCalendar" class="btn btn-gold mt-4" target="_blank" rel="noopener">
+          <i class="bi bi-calendar-plus me-2"></i>Simpan ke Kalender
+        </a>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="event" class="py-5 bg-cream">
+      <div class="container text-center">
+        <h2 class="script section-title reveal">Rangkaian Acara</h2>
+        <div class="row g-4 justify-content-center mt-2">
+          <div class="col-md-5 reveal">
+            <div class="card event-card h-100">
+              <div class="card-body p-4">
+                <i class="bi bi-gem text-gold fs-1"></i>
+                <h4 class="serif mt-2">Akad Nikah</h4>
+                <p class="mb-1"><i class="bi bi-calendar-event me-2"></i>Sabtu, 12 Desember 2026</p>
+                <p class="mb-1"><i class="bi bi-clock me-2"></i>08.00 – 10.00 WIB</p>
+                <p><i class="bi bi-geo-alt me-2"></i>Masjid Al-Ikhlas, Surabaya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 reveal">
+            <div class="card event-card h-100">
+              <div class="card-body p-4">
+                <i class="bi bi-stars text-gold fs-1"></i>
+                <h4 class="serif mt-2">Resepsi</h4>
+                <p class="mb-1"><i class="bi bi-calendar-event me-2"></i>Sabtu, 12 Desember 2026</p>
+                <p class="mb-1"><i class="bi bi-clock me-2"></i>11.00 – 14.00 WIB</p>
+                <p><i class="bi bi-geo-alt me-2"></i>Gedung Graha Bunga, Surabaya</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-gold mt-4 reveal" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Surabaya">
+          <i class="bi bi-map me-2"></i>Lihat Lokasi (Google Maps)
+        </a>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="py-5">
+      <div class="container text-center">
+        <h2 class="script section-title reveal">Galeri</h2>
+        <div class="row g-2 mt-2">
+          <div class="col-6 col-md-4 reveal"><img class="gal" src="https://picsum.photos/seed/w1/600/600" alt="Galeri 1"></div>
+          <div class="col-6 col-md-4 reveal"><img class="gal" src="https://picsum.photos/seed/w2/600/600" alt="Galeri 2"></div>
+          <div class="col-6 col-md-4 reveal"><img class="gal" src="https://picsum.photos/seed/w3/600/600" alt="Galeri 3"></div>
+          <div class="col-6 col-md-4 reveal"><img class="gal" src="https://picsum.photos/seed/w4/600/600" alt="Galeri 4"></div>
+          <div class="col-6 col-md-4 reveal"><img class="gal" src="https://picsum.photos/seed/w5/600/600" alt="Galeri 5"></div>
+          <div class="col-6 col-md-4 reveal"><img class="gal" src="https://picsum.photos/seed/w6/600/600" alt="Galeri 6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP & UCAPAN -->
+    <section id="rsvp" class="py-5 bg-cream">
+      <div class="container narrow">
+        <h2 class="script section-title text-center reveal">RSVP & Ucapan</h2>
+        <form id="rsvpForm" class="card p-4 shadow-sm reveal" novalidate>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" id="nama" class="form-control" placeholder="Nama Anda" required>
+            <div class="invalid-feedback">Nama wajib diisi.</div>
+          </div>
+          <div class="mb-3">
+            <label for="kehadiran" class="form-label">Konfirmasi Kehadiran</label>
+            <select id="kehadiran" class="form-select" required>
+              <option value="" selected disabled>Pilih...</option>
+              <option>Hadir</option>
+              <option>Tidak Hadir</option>
+              <option>Masih Ragu</option>
+            </select>
+            <div class="invalid-feedback">Pilih konfirmasi kehadiran.</div>
+          </div>
+          <div class="mb-3">
+            <label for="ucapan" class="form-label">Ucapan & Doa</label>
+            <textarea id="ucapan" rows="3" class="form-control" placeholder="Tulis ucapan..." required></textarea>
+            <div class="invalid-feedback">Ucapan wajib diisi.</div>
+          </div>
+          <button class="btn btn-gold w-100" type="submit"><i class="bi bi-send me-2"></i>Kirim</button>
+        </form>
+
+        <h5 class="serif mt-5 mb-3">Ucapan Tamu <span id="wishCount" class="badge bg-secondary">0</span></h5>
+        <div id="wishList" class="wish-list"></div>
+      </div>
+    </section>
+
+    <!-- GIFT -->
+    <section id="gift" class="py-5">
+      <div class="container narrow text-center">
+        <h2 class="script section-title reveal">Hadiah Pernikahan</h2>
+        <p class="text-muted reveal">Doa restu Anda sudah menjadi hadiah terindah. Namun jika ingin memberi tanda kasih, dapat melalui:</p>
+        <div class="card gift-card p-4 reveal">
+          <h5 class="serif">Bank BCA</h5>
+          <p class="fs-4 fw-semibold mb-0" id="rekening">1234567890</p>
+          <p class="text-muted">a.n. Rina Anggraini</p>
+          <button id="btnCopy" class="btn btn-outline-dark rounded-pill mx-auto">
+            <i class="bi bi-clipboard me-2"></i>Salin Nomor Rekening
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white py-5 footer-bg">
+      <p class="mb-1">Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+      <p class="mb-3">Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
+      <h2 class="script">Rina & Dimas</h2>
+      <p class="small opacity-75 mb-0">Dibuat dengan HTML, CSS, Bootstrap & JavaScript · Tugas PBP Minggu 6</p>
+    </footer>
+  </main>
+
+  <!-- Bottom nav -->
+  <nav id="bottomNav" class="bottom-nav d-none">
+    <a href="#home"><i class="bi bi-house"></i></a>
+    <a href="#couple"><i class="bi bi-people"></i></a>
+    <a href="#event"><i class="bi bi-calendar-heart"></i></a>
+    <a href="#gallery"><i class="bi bi-images"></i></a>
+    <a href="#rsvp"><i class="bi bi-chat-heart"></i></a>
+  </nav>
+
+  <!-- Music -->
+  <button id="btnMusic" class="btn-music d-none" aria-label="Putar/jeda musik">
+    <i class="bi bi-music-note-beamed"></i>
+  </button>
+  <!-- Ganti src dengan file musik Anda (mis. assets/musik.mp3) -->
+  <audio id="bgm" loop src="assets/musik.mp3"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
